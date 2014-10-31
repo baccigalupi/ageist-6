@@ -1,7 +1,8 @@
-age=rand(111)
+age=rand(111) # good catch
 
 if age<=1
   stage='baby'
+# do you need to check the lower limit?
 elsif age<10 && age>1
   stage='child'
 elsif age<=12 && age>=10
